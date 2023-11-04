@@ -1,0 +1,102 @@
+body{
+    background-color: gray;
+}
+.navbar-toggler{
+    background-color: lightgray;
+}
+.container{
+    background-color: black;
+}
+.nav-link{
+    color: lightgrey;
+}
+.nav-link:hover{
+    color: white;
+}
+.dropdown-menu{
+    background-color: #212529;
+}
+.dropdown-menu a{
+    color: lightgray;
+}
+.dropdown-item{
+    padding: 10px;
+    padding-left: 30px;
+}
+.btn{
+    color: lightgray;
+    background-color: #212529;
+    border-color: lightgray;
+}
+.btn:hover{
+    color: lightgray;
+    background-color: red;
+}
+.me-2:focus{
+    box-shadow: none;
+    border-color: red;
+}
+.me-2{
+    border-color: red;
+}
+.langueses{
+    color: lightgray;
+    padding-left: 30px;
+}
+.card{
+    border: none;
+    color: lightgray;
+    background-color: black;
+}
+.list-title{
+    margin-top: 30px;
+    color: lightgray;
+}
+.cat-2{
+    margin-top: 25px;
+}
+.line{
+    height: 2px;
+    background-color: lightgray;
+    margin-top: 15px;
+}
+.footer{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    color: lightgray;
+}
+.privacy-policy{
+    color: lightgray;
+}
+.privacy-policy h1{
+    color: red;
+    margin-top: 15px;
+}
+.post-card{
+    margin-top: 30px;
+}
+.post-time{
+    color: gray;
+}
+.line-2{
+    height: 2px;
+    background-color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.in-story{
+    color: lightgray;
+    
+}
+.ss-img img{
+    width: 600px;
+    padding: 15px 0px 15px;
+}
+
+.dn-text{
+    padding: 15px 15px 15px;
+}
+.btn-danger{
+    background-color: red;
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="RCatltvgW23MSa9fBX69ZG2GjAA9hFEgGYozVKSf8q4" />
+    <title>Home - AJ Movies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <nav class="navbar navbar-expand-lg bg-dark" id="home">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#home"><img src="images/Branding.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">All Movies</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <div class="d-flex">
+                        <div class="row">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Comedy</a></li>
+                            <li><a class="dropdown-item" href="#">Drama</a></li>
+                            <li><a class="dropdown-item" href="#">Romantic</a></li>
+                            <li><a class="dropdown-item" href="#">Thriller</a></li>
+                          
+                          </div>
+                          <div class="row">
+                            <li><a class="dropdown-item" href="#">Anime</a></li>
+                            <li><a class="dropdown-item" href="#">Biography</a></li>
+                            <li><a class="dropdown-item" href="#">Horror</a></li>
+                            <li><a class="dropdown-item" href="#">War</a></li>
+                            <li><a class="dropdown-item" href="#">Crime</a></li>
+                          </div>
+                          <div class="row">
+                            <li><a class="dropdown-item" href="#">Adventure</a></li>
+                            <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                            <li><a class="dropdown-item" href="#">Romantic</a></li>
+                            <li><a class="dropdown-item" href="#">Sports</a></li>
+                            <li><a class="dropdown-item" href="#">Others</a></li>
+                          </div>
+                      </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#latest">Latest</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+          <div class="row d-flex">
+            <div class="col-md-9 col-sm-12">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/banner/beast.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/banner/master.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/banner/rrr.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <h4 class="list-title" id="latest">Latest Movies</h4>
+              <div class="latest-movie row row-cols-2 row-cols-md-4 row-cols-lg-5 g-4">
+                <div class="col">
+                  <a class="nav-link" href="movies/hindi-dubbed/rrr.html">
+                    <div class="card h-100">
+                      <img src="movies/hindi-dubbed/rrr/rrr.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">RRR (Hindi Dubbed)</h5>
+                      </div>
+                    </div>
+                  </a>
+                  
+                </div>
+                <div class="col">
+                  <a class="nav-link" href="movies/hindi/dabang-3.html">
+                    <div class="card h-100">
+                      <img src="movies/hindi/dabang3-img/dabang.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Dabangg 3 (2019) Hindi</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="nav-link" href="movies/tamil/Kaashmora.html">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Kaashmora (2016) [Hindi ORG & Tamil]</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="nav-link" href="movies/english/edge-of-tomorrow.html">
+                    <div class="card h-100">
+                      <img src="movies/english/e-of-tomorrow/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Edge of Tomorrow [Hindi-English]</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div><div class="col">
+                  <a class="nav-link" href="">
+                    <div class="card h-100">
+                      <img src="movies/tamil/kashmora/poster.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">title</h5>
+                        
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+              
+              
+            </div>
+
+            
+
+
+
+            <div class="langueses col-sm-12 col-md-3">
+              <div><h4 class="cat-2">Langueses</h4></div>
+              <a class="nav-link" href="#">Bangla</a>
+              <a class="nav-link" href="#">Hindi</a>
+              <a class="nav-link" href="#">English</a>
+              <a class="nav-link" href="#">Hindi Dubbed</a>
+              <a class="nav-link" href="#">Telegu</a>
+              <a class="nav-link" href="#">Korean</a>
+              <a class="nav-link" href="#">Kolkata</a>
+              <a class="nav-link" href="#">Malaylam</a>
+              <a class="nav-link" href="#">China</a>
+              <a class="nav-link" href="#">Turkish</a>
+              <a class="nav-link" href="#">Japanese</a>
+              <div><h4 class="cat-2">Categories</h4></div>
+              <a class="nav-link" href="#">TV Show</a>
+              <a class="nav-link" href="#">Web Series</a>
+            </div>
+          </div>
+
+
+          <div class="line"></div>
+          <div class="footer">
+            <div>
+              <p>By using this site you agree to and accept our Terms and Conditions</p>
+            </div>
+            <div class="d-flex justify-content-center"><a class="nav-link" href="terms-cond.html">Privacy Policy </a> - <a class="nav-link" href="terms-cond.html"> Terms and Conditions</a>
+              - <a class="nav-link" href="terms-cond.html"> Disclaimer</a>
+            </div>
+            <div><small>Copyright © 2022 AJ Movies. All Rights Reserved.</small></div>
+          </div>
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
